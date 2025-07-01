@@ -6,8 +6,8 @@ namespace LeetcodeSolutionsCSharp
     {
         static void Main(string[] args)
         {
-            Solution0014 s14 = new Solution0014();
-            Console.WriteLine(s14.LongestCommonPrefix(["flower", "flow", "flight"]));
+            Solution0020 s20 = new Solution0020();
+            Console.WriteLine(s20.IsValid("]"));
         }
     }
 }
