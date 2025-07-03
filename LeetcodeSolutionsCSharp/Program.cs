@@ -6,8 +6,8 @@ namespace LeetcodeSolutionsCSharp
     {
         static void Main(string[] args)
         {
-            Solution0020 s20 = new Solution0020();
-            Console.WriteLine(s20.IsValid("]"));
+            Solution0059 s59 = new Solution0059();
+            var result = s59.GenerateMatrix(4);
         }
     }
 }
