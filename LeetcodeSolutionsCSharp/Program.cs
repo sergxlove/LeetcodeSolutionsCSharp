@@ -6,8 +6,10 @@ namespace LeetcodeSolutionsCSharp
     {
         static void Main(string[] args)
         {
-            Solution0059 s59 = new Solution0059();
-            var result = s59.GenerateMatrix(4);
+            
+
+            Solution0048 s = new Solution0048();
+            s.Rotate([[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
         }
     }
 }
