@@ -20,7 +20,10 @@ namespace Solutions
             if (quantityLower < 1) return false;
             if (quantityDigit < 1) return false;
             if (!Regex.IsMatch(password, @"[!@#$%^&*()\-+]")) return false;
-            if (!Regex.IsMatch(password, @"(.)\1")) return false;
+            for(int i = 0; i < password.Length - 1; i++)
+            {
+                if (password[i] == password[i + 1]) return false;
+            }
             return true;
         }
     }
