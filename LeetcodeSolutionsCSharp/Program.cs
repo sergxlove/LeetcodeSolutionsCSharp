@@ -6,8 +6,8 @@ namespace LeetcodeSolutionsCSharp
     {
         static void Main(string[] args)
         {
-            Solution1717 s = new Solution1717();
-            Console.WriteLine(s.MaximumGain("cdbcbbaaabab", 4,5));
+            Solution0898 s = new Solution0898();
+            Console.WriteLine(s.SubarrayBitwiseORs([1, 1, 2]));
         }
     }
 }
