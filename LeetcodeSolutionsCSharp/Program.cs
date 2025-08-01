@@ -6,8 +6,8 @@ namespace LeetcodeSolutionsCSharp
     {
         static void Main(string[] args)
         {
-            Solution0898 s = new Solution0898();
-            Console.WriteLine(s.SubarrayBitwiseORs([1, 1, 2]));
+            Solution0118 s = new Solution0118();
+            s.Generate(5);
         }
     }
 }
