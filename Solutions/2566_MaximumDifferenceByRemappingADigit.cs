@@ -1,6 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace Solutions
+﻿namespace Solutions
 {
     public class Solution2566
     {
