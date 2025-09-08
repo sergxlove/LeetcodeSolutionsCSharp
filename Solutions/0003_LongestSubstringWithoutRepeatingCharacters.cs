@@ -4,29 +4,20 @@
     {
         public int LengthOfLongestSubstring(string s)
         {
-            if(s.Length == 1)
+            HashSet<char> charSet = new HashSet<char>();
+            int left = 0;
+            int maxLength = 0;
+            for (int right = 0; right < s.Length; right++)
             {
-                return 1;
-            }
-            Dictionary<char, bool> HavesSymbols = new Dictionary<char, bool>();
-            int maxRepeatSymbol = 0;
-            int countSymbols = 0;
-            foreach (var item in s)
-            {
-                if (HavesSymbols.ContainsKey(item))
+                while (charSet.Contains(s[right]))
                 {
-                    if (maxRepeatSymbol < countSymbols)
-                    {
-                        maxRepeatSymbol = countSymbols;
-                    }
-                    countSymbols = 0;
-                    HavesSymbols.Clear();
+                    charSet.Remove(s[left]);
+                    left++;
                 }
-                HavesSymbols.Add(item, true);
-                countSymbols++;
+                charSet.Add(s[right]);
+                maxLength = Math.Max(maxLength, right - left + 1);
             }
-            if(maxRepeatSymbol < countSymbols) maxRepeatSymbol = countSymbols;
-            return maxRepeatSymbol;
+            return maxLength;
         }
     }
 }
