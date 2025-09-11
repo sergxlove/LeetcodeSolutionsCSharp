@@ -6,8 +6,8 @@ namespace LeetcodeSolutionsCSharp
     {
         static void Main(string[] args)
         {
-            Solution1304 s = new Solution1304();
-            s.SumZero(5);
+            Solution2785 s = new Solution2785();
+            s.SortVowels("lEetcOde");
         }
     }
 }
