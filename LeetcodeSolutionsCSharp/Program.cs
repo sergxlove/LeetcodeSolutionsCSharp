@@ -6,8 +6,8 @@ namespace LeetcodeSolutionsCSharp
     {
         static void Main(string[] args)
         {
-            Solution2785 s = new Solution2785();
-            s.SortVowels("lEetcOde");
+            Solution0125 s = new Solution0125();
+            s.IsPalindrome("A man, a plan, a canal: Panama");
         }
     }
 }
