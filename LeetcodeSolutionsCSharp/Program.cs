@@ -6,8 +6,8 @@ namespace LeetcodeSolutionsCSharp
     {
         static void Main(string[] args)
         {
-            Solution1518 s = new();
-            s.NumWaterBottles(15, 4);
+            Solution3461 s = new();
+            s.HasSameDigits("3902");
         }
     }
 }
