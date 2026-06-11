@@ -7,6 +7,10 @@
 ![Static Badge](https://img.shields.io/badge/developer-sergxlove-green)
 ![Static Badge](https://img.shields.io/badge/year-2024-green)
 
+## Stack
+
+![Static Badge](https://img.shields.io/badge/language-C%23-red)
+
 ## About
 
 Educational repository with solutions to LeetCode problems in C# and beyond
